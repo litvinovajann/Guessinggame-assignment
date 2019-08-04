@@ -1,4 +1,5 @@
-number=$(ls -l | wc -l)-1
+
+number=$(ls -a | wc -l)
 function guess {
 echo "How many files are in the current directory? Try to guess!"
 read response
