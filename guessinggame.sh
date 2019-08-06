@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 number=$(ls -a | wc -l)
 function guess {
